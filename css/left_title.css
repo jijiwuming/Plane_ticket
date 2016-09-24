@@ -1,0 +1,12 @@
+div.left div.body div.title div.tabs{
+	display: inline-block;
+	margin-left: 24%;
+}
+.top .img2 {
+	right: 50%!important;
+}
+div.left div.body div.title div.tabs span.tab span.pic img{
+	vertical-align: middle;
+    transform: scale(1.4);
+    padding:1em 1em;
+}

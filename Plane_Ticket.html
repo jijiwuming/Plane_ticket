@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>飞机票</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/Plane_Ticket_Order.css">
+    <link rel="stylesheet" type="text/css" href="css/left_title.css">
+    <style type="text/css">
+        div.Ticket {
+        padding: 4% 0 0 0;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 4%;
+    }
+    div.MainMes {
+    margin-bottom: 5%;
+    }
+    div.FirstT {
+    margin: 3% 0;
+    }
+    div.title{
+        margin-top: 4%;
+    }
+    div.findplace{
+        margin-top: 3%;
+    }
+    div.Ticket {
+    padding: 0;
+    }
+    </style>
+</head>
+<body>
+	<div class="top">
+        <div class="img1"><img src="images/13.png" style="margin-left: -60px;" /></div>
+        <div class="img2"><img src="images/2.png"  style="position: absolute;margin-left:150px;"/></div>
+    </div>
+    <div class="nav1">
+    	<ul>
+        	<li><a href="#" class="checked">首页</a></li>
+            <li><a href="#">交通罚单</a></li>
+            <li><a href="#">有线电视</a></li>
+            <li><a href="#">固话宽带</a></li>
+            <li><a href="#">水电煤</a></li>
+            <li><a href="#">手机充值</a></li>
+            <li><a href="#">银行转账</a></li>
+            <li><a href="#">公交车</a></li>
+            <li><a href="#">信用卡还款</a></li>
+            <li><a href="#">飞机票</a></li>
+            <li><a href="#">火车票</a></li>
+            <li><a href="#">供暖缴费</a></li>
+            <li><a href="#">自行车</a></li>
+        </ul>   
+    </div>
+    <div class="img3">
+    	<img src="images/3.png" style="width:100%;height:300px;"/>
+    </div>
+    <div class="main">	
+	    <div class="left">
+	    	<div class="header">
+                <span>
+                    <em class="dot">
+                        <img src="images/dot.png" style="width:13px;height:13px;"/>
+                    </em>飞机票
+                </span>
+            </div>
+            <div class="body">
+                <div class="title">
+                    <span class="t-item t-item1">搜索航班</span>
+                    <span class="t-item t-item2">国内机票</span>
+                    <div class="tabs">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="findplace">
+                        <div class="formitem">
+                            <label for="FirstP">出发城市：</label>
+                            <input class="inputP" type="text" name="FirstP">
+                        </div>
+                        <div class="formitem">
+                            <label for="FirstT">出发时间：</label>
+                            <input class="inputP" type="text" name="FirstT">
+                        </div>
+                        <div class="formitem">
+                            <label for="SecP">到达城市：</label>
+                            <input class="inputP" type="text" name="SecP">
+                        </div>
+                        <button class="btnFind">查询</button>
+                    </div>
+                    <div class="FirstT">
+                        <span>起飞时间：</span>
+                        <span id="all">全部</span>
+                        <input type="checkbox" class="time">早晨(0~6点)</input>
+                        <input type="checkbox" class="time">上午(6~12点)</input>
+                        <input type="checkbox" class="time">中午(12~13点)</input>
+                        <input type="checkbox" class="time">下午(13~18点)</input>
+                        <input type="checkbox" class="time">晚上(18~14点)</input>
+                    </div>
+                    <div class="MainMes">
+                        <p><b>重要提示：</b></p>
+                        <p>1、以下票面价不包含机场建设费、燃油附加税。</p>
+                        <p>2、特殊舱位价格变化快,以下特殊舱位价格仅作参考,以订座成功后价格为准</p>
+                    </div>
+                    <div class="Ticket">
+                        <table>
+                            <tr class="items">
+                                <td class="leftitem">航班信息</td>
+                                <td>起抵时间</td>
+                                <td>起抵机场</td>
+                                <td>舱位</td>
+                                <td>票面价</td>
+                                <td>余票</td>
+                                <td>操作</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="MainMes">
+                        <p><b>购票须知</b></p>
+                        <p style="margin-top:3%;">1、机票相关业务处理时间为8:00-22:00</p>
+                        <p>2、机票业务不做改签处理</p>
+                        <p>3、机票支持在线申请废票和自愿退票,非自愿请根据平台规则联系客服处理</p>
+                        <p>4、出票当日提交"退废票",具体以航司规定为准</p>
+                        <p>5、请仔细核对用户身份证以及姓名,以免造成不必要的损失</p>
+                        <p>6、行程单(报销凭证)机场提供打印服务</p>
+                    </div>
+                </div>
+            </div>
+	    </div>
+	    <div class="right">
+            <div class="header">
+                <span class="more">看过本商品的人还看了</span>
+            </div>
+            <div class="banner">
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/7.png" /></a></div>
+                    <div class="txt1">宗塘商务宾馆标准单人房：7.8折抢购价值188元的宗塘商务宾馆标准单人房入住1晚，可连续入住，免费wifi。</div>
+                    <div class="digital">7.8</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/8.png" /></a></div>
+                    <div class="txt1">嘉洲红美发设计烫发：仅售640元！最高价值1280元的烫发套餐一次，提供免费WiFi。</div>
+                    <div class="digital">5.0</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/8.png" /></a></div>
+                    <div class="txt1">嘉洲红美发设计烫发：仅售640元！最高价值1280元的烫发套餐一次，提供免费WiFi。</div>
+                    <div class="digital">5.0</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                </div>
+            </div>
+	    </div>
+    </div>
+    <div class="nav1 nav2">
+        <ul>
+            <li id="INC"><a href="#" id="cardINC">@2014 我的卡 ICARD.CN 版权所有</a></li>
+            <li><a href="#">获取更新</a></li>
+            <li><a href="#">商业合作</a></li>
+            <li><a href="#">公司信息</a></li>
+            <li><a href="#">用户帮助</a></li>
+            <li><a href="#">人工服务</a></li>
+        </ul>   
+    </div>
+    <div class="bottom">
+            <div class="bottomitem item1">沪ICP备14010013号-1</div>
+            <div class="bottomitem item2">邮件订阅</div>
+            <div class="bottomitem item3">提供优惠信息</div>
+            <div class="bottomitem item4">关于公司</div>
+            <div class="bottomitem item5">客服电话</div>
+            <div class="bottomitem item6">客服电话:<span id="phone">0579-8505-3777</span></div> 
+    </div>
+    <div class="bottom">
+            <div class="bottomitem item1"></div>
+            <div class="bottomitem item2">IPHONE/ANDROID</div>
+            <div class="bottomitem item3">商家销售平台</div>
+            <div class="bottomitem item4">公司承诺</div>
+            <div class="bottomitem item5">客服QQ</div>
+            <div class="bottomitem item6">服务时间:<span id="time">每天9：00-22：00</span></div> 
+    </div>
+    <div class="bottom">
+            <div class="bottomitem item1"></div>
+            <div class="bottomitem item2"></div>
+            <div class="bottomitem item3">我的卡联盟</div>
+            <div class="bottomitem item4">用户协议</div>
+            <div class="bottomitem item5"></div>
+            <div class="bottomitem item6"></div> 
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

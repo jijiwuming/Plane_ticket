@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>飞机票-预定</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/Plane_Ticket_Order.css">
+    <link rel="stylesheet" type="text/css" href="css/Plane_Ticket_Order1.css">
+    <link rel="stylesheet" type="text/css" href="css/left_title.css">
+</head>
+<body>
+	<div class="top">
+        <div class="img1"><img src="images/13.png" style="margin-left: -60px;" /></div>
+        <div class="img2"><img src="images/2.png"  style="position: absolute;margin-left:150px;"/></div>
+    </div>
+    <div class="nav1">
+    	<ul>
+        	<li><a href="#" class="checked">首页</a></li>
+            <li><a href="#">交通罚单</a></li>
+            <li><a href="#">有线电视</a></li>
+            <li><a href="#">固话宽带</a></li>
+            <li><a href="#">水电煤</a></li>
+            <li><a href="#">手机充值</a></li>
+            <li><a href="#">银行转账</a></li>
+            <li><a href="#">公交车</a></li>
+            <li><a href="#">信用卡还款</a></li>
+            <li><a href="#">飞机票</a></li>
+            <li><a href="#">火车票</a></li>
+            <li><a href="#">供暖缴费</a></li>
+            <li><a href="#">自行车</a></li>
+        </ul>   
+    </div>
+    <div class="img3">
+    	<img src="images/3.png" style="width:100%;height:300px;"/>
+    </div>
+    <div class="main">	
+	    <div class="left">
+	    	<div class="header">
+                <span>
+                    <em class="dot">
+                        <img src="images/dot.png" style="width:13px;height:13px;"/>
+                    </em>飞机票
+                </span>
+            </div>
+            <div class="body">
+                <div class="title">
+                    <span class="t-item t-item1">搜索航班</span>
+                    <span class="t-item t-item2">国内机票</span>
+                    <div class="tabs">
+                        <span class="tab tab1">
+                            <span class="pic">
+                                <img src="images/4.png">
+                            </span>
+                            <span class="sub sub-active">
+                                提交订单
+                            </span>
+                        </span>
+                        <span class="tab tab2">
+                            <span class="pic">
+                                <img src="images/5.png">
+                            </span>
+                            <span class="sub">
+                                确认并支付
+                            </span>
+                        </span>
+                        <span class="tab tab3">
+                            <span class="pic">
+                                <img src="images/6.png">
+                            </span>
+                            <span class="sub">
+                                成功
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="findplace" style="padding-top: 2%;background-color: #eee;">
+                       <span>航班信息</span>
+                       <span style="display: inline-block;padding: 0 16px 0 5px;background-color: #f8f7f7;border-radius: 5px;margin-left: 2%;"><img src="images/刷新.png" style="vertical-align: middle;margin-bottom: 6px;">重新查询</span>
+                    </div>
+                    <div class="FirstT">
+                        <span class="LaT">厦门航空 </span><span class="LaT" style="color: #31708f;">MF8192</span>
+                        <span class="point">
+                            起飞：2015-01-22 06:30 北京机场<br/>
+                            到达：2015-01-22 08:55 长沙机场
+                            </span>
+                            <span class="location">
+                            <span style="color: #a94442;font-weight: bold;">单张票价：￥1280.000</span>/成人(含票面价1,200.000-返点0.000+机建费50.000+燃油费30.000)经济舱 
+                            <span style="font-weight: bold;">0.99</span>折
+                            </span>
+                    </div>
+                    <div class="sub">
+                        乘客信息
+                    </div>
+                    <div class="order">
+                        <div class="Attentthis">
+                            <span><b>注意：</b></span>
+                            <span>填写乘客信息请务必保证您的手机号码填写正确,以便及时接收到行程信息</span>
+                        </div>
+                        <div class="orderitem">
+                            <table>
+                                <tr class="firstrow">
+                                    <td class="type">
+                                        类型
+                                    </td>
+                                     <td class="name">
+                                        姓名
+                                    </td> 
+                                    <td class="cardtype">
+                                        证件类型
+                                    </td>
+                                    <td class="cardcode">
+                                        证件号码
+                                    </td>
+                                    <td class="phonenum">
+                                        手机号码
+                                    </td>
+                                    <td class="action">
+                                        操作
+                                    </td>
+                                </tr>
+                                <tr class="secrow">
+                                    <td class="type">
+                                        <select>
+                                            <option value="1">成人票</option>
+                                            <option value="2">儿童票</option>
+                                            <option value="3">特惠票</option>
+                                        </select>
+                                    </td>
+                                     <td class="name">
+                                        <input type="text" name="">
+                                    </td> 
+                                    <td class="cardtype">
+                                        <select>
+                                            <option value="1">身份证</option>
+                                            <option value="2">护照</option>
+                                        </select>
+                                    </td>
+                                    <td class="cardcode">
+                                       <input type="text" name="">
+                                    </td>
+                                    <td class="phonenum">
+                                        <input type="text" name="">
+                                    </td>
+                                    <td class="action">
+                                        <span>
+                                            <img src="images/保存.png">保存
+                                        </span>
+                                        <span>
+                                            <img src="images/取消.png">取消
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <button id="addpassage" style="margin: 3% 0 1% 45%;">增加乘客</button>
+                        </div>
+                    </div>
+                    <div class="sub">
+                        联系人信息
+                    </div>
+                    <div class="contact">
+                        <div class="line">
+                            <label for="ConMan">联系人：</label>
+                            <input type="text" name="ConMan">
+                        </div>
+                        <div class="line">
+                            <label for="ConPhone">联系电话：</label>
+                            <input type="text" name="ConPhone">
+                        </div>
+                    </div>
+                    <div class="AllPrice">
+                        <span>合计：</span>
+                        <span style="color: #a94442;">1280.000</span>
+                        <span>(单张含票面价1,200.000-返点0.000+机场建设费50.000
+                        <br/>+燃油附加税30.000)</span>
+                        <div class="rightcor">
+                            <span>采购价</span>
+                            <a href="#">
+                                点击查看
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Attention">
+                        <div class="main smalltitle">
+                            仅供参考！请以航空公司为准！
+                        </div>
+                        <div class="smalltitle">
+                            退票规定：
+                        </div>
+                        <div class="content">
+                            取消座位时间计算手续费;按照对应舱位等级全价收取退票费;起飞前2.0小时(含)以外收取Y舱全价票的10.0%退票费，起飞前2.0小时以内及起飞后收取Y舱全价票的20.0%退票费;
+                        </div>
+                        <div class="smalltitle">
+                            改签规定：
+                        </div>
+                        <div class="content">
+                            按照对应舱位的等级收取变更费;起飞前2.0小时(含)以外收取Y舱全价票的10.0%改期费;起飞前：1、&le;3次,免费；2、>3次,对应舱位等级全价票(P/F/J/Y)的5%
+                        </div>
+                    </div>
+                    <div class="bottomitem">
+                    <input type="checkbox" name="">我已阅读并同意《<a href="#">平台飞机票服务协议</a>》
+                    </div>
+                    <div class="bottomitem2">
+                    <button class="confirm">确认提交订单</button>
+                    <button class="cancel">取消订单</button>
+                    </div>
+                </div>
+            </div>
+	    </div>
+	    <div class="right">
+            <div class="header">
+                <span class="more">看过本商品的人还看了</span>
+            </div>
+            <div class="banner">
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/7.png" /></a></div>
+                    <div class="txt1">宗塘商务宾馆标准单人房：7.8折抢购价值188元的宗塘商务宾馆标准单人房入住1晚，可连续入住，免费wifi。</div>
+                    <div class="digital">7.8</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/8.png" /></a></div>
+                    <div class="txt1">嘉洲红美发设计烫发：仅售640元！最高价值1280元的烫发套餐一次，提供免费WiFi。</div>
+                    <div class="digital">5.0</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/8.png" /></a></div>
+                    <div class="txt1">嘉洲红美发设计烫发：仅售640元！最高价值1280元的烫发套餐一次，提供免费WiFi。</div>
+                    <div class="digital">5.0</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/8.png" /></a></div>
+                    <div class="txt1">嘉洲红美发设计烫发：仅售640元！最高价值1280元的烫发套餐一次，提供免费WiFi。</div>
+                    <div class="digital">5.0</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="block">
+                    <div class="pic"><a href=""><img src="images/8.png" /></a></div>
+                    <div class="txt1">嘉洲红美发设计烫发：仅售640元！最高价值1280元的烫发套餐一次，提供免费WiFi。</div>
+                    <div class="digital">5.0</div>
+                    <div class="discount">折起</div>
+                    <div class="sold">已售</div>
+                    <div class="zero">0</div>
+                </div>
+            </div>
+	    </div>
+    </div>
+    <div class="nav1 nav2">
+        <ul>
+            <li id="INC"><a href="#" id="cardINC">@2014 我的卡 ICARD.CN 版权所有</a></li>
+            <li><a href="#">获取更新</a></li>
+            <li><a href="#">商业合作</a></li>
+            <li><a href="#">公司信息</a></li>
+            <li><a href="#">用户帮助</a></li>
+            <li><a href="#">人工服务</a></li>
+        </ul>   
+    </div>
+    <div class="bottom">
+            <div class="bottomitem item1">沪ICP备14010013号-1</div>
+            <div class="bottomitem item2">邮件订阅</div>
+            <div class="bottomitem item3">提供优惠信息</div>
+            <div class="bottomitem item4">关于公司</div>
+            <div class="bottomitem item5">客服电话</div>
+            <div class="bottomitem item6">客服电话:<span id="phone">0579-8505-3777</span></div> 
+    </div>
+    <div class="bottom">
+            <div class="bottomitem item1"></div>
+            <div class="bottomitem item2">IPHONE/ANDROID</div>
+            <div class="bottomitem item3">商家销售平台</div>
+            <div class="bottomitem item4">公司承诺</div>
+            <div class="bottomitem item5">客服QQ</div>
+            <div class="bottomitem item6">服务时间:<span id="time">每天9：00-22：00</span></div> 
+    </div>
+    <div class="bottom">
+            <div class="bottomitem item1"></div>
+            <div class="bottomitem item2"></div>
+            <div class="bottomitem item3">我的卡联盟</div>
+            <div class="bottomitem item4">用户协议</div>
+            <div class="bottomitem item5"></div>
+            <div class="bottomitem item6"></div> 
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+div.FirstT span.LaT{
+	    font-size: 30px;
+}
+span.point{
+	display: inline-block;
+	margin-left: 2%;
+}
+span.location{
+	margin-top: 2%;
+	display: block;
+}
+div.order{
+	padding: 1%;
+	border:1px solid #e3e3e3;
+	margin-top: 2%; 
+}
+div.Attentthis{
+	background-color: rgba(255, 212, 234, 0.78);
+	color: #8f5031;
+	padding: 10px;
+}
+div.orderitem table tr td{
+	display: inline-block;
+	text-align: center;
+	padding: 0 10px;
+}
+button#addpassage{
+background-color: #f99b16;
+    border: 0;
+    border-radius: 3px;
+    padding: 4px 10px;
+    color: #fef5ec;
+    font-weight: bold;
+}
+table{
+	margin-top: 1%;
+	border-collapse:collapse;
+	display: block;
+	 border-style:hidden;
+}
+table td{
+	display: inline-block;
+	width: 15%;
+	border:1px solid #ddd;
+	padding-bottom: 2px;
+}
+td.type,td.cardtype{
+	width: 10%;
+}
+table td input{
+	width: 90%;
+}
+div.orderitem table tr.firstrow td{
+	border-bottom: 0px;
+	padding: 4px 10px;
+}
+div.orderitem table tr.secrow td{
+	padding-bottom: 5px;
+    background-color: #f9f9f9;
+}
+div.sub{
+	margin-top: 2%;padding: 1%;background-color: #eee;border: 1px solid #ccc;
+}
+div.contact{
+border: 1px solid #e3e3e3;
+    padding: 1% 0 8% 2%;
+    margin-top: 2%;
+}
+div.contact div input{
+border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    width: 50%;
+}
+div.line{
+	width: 40%;
+    text-align: right;
+    margin-top: 2%;
+    margin-left: -6%;
+}
+div.AllPrice{
+	font-size: 23px;text-align: right;
+	margin-top: 2%;
+}
+div.rightcor{
+	font-size: 14px;
+}
+div.rightcor a{
+	text-decoration: none;
+}
+div.Attention{
+	padding: 5% 3%;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+	margin-top: 2%;
+}
+div.Attention div.main{
+	color: #a94442;
+}
+div.smalltitle{
+	font-size: 20px;
+	margin-top: 1%;
+}
+div.Attention div.content{
+	margin-top: 1%;
+}
+div.bottomitem{
+	text-align: center;
+	margin-top: 5%;
+}
+div.bottomitem a{
+	text-decoration: none;
+}
+div.bottomitem2{
+	text-align: center;
+	margin-left: -8%;
+	margin-top: 2%;
+}
+div.bottomitem2 button{
+	padding: 8px 5px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	margin-right: 3%;
+}
+button.confirm{
+	background-color: #faae43;
+	color: #fffaf5;
+}
+button.cancel{
+	background-color: #efefef;
+	color: #666;
+}
+div.bottom{
+	height: 35px;
+}
+div.left{
+	margin-bottom: 10%;
+}
+div.nav2{
+	position: absolute;
+    margin-top: 1%;
+    padding: 0 11%;
+}

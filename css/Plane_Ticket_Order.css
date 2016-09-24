@@ -1,0 +1,100 @@
+div.title span.t-item{
+	display: inline-block;
+	padding: 5px 20px 5px 8px;
+	color: #ffffff;
+}
+div.title span.t-item1{
+	background-color: #a48a7b;
+}
+div.title span.t-item2{
+	background-color: #b98468;
+}
+div.formitem{
+	display: inline-block;
+	margin-top: 8px;
+}
+input.inputP{
+	font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 50%; 
+}
+div.findplace{
+	border: 1px solid #ccc; 
+	padding-left: 2%;
+	padding-bottom: 2%;
+	background-color: #f5f5f5;
+}
+button.btnFind{
+	margin-left: 11%;
+	border:0px; 
+	border-radius: 4px;
+	background-color: #faa835;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 25px;
+	font-family: inherit;
+}
+span#all{
+	display: inline-block;
+	padding: 0 5px;
+	background-color: #f9a022;
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid #f19717;
+}
+div.FirstT{
+	margin-top: 10px;
+	padding: 2% 4% 2% 2%;
+	border: 1px solid #ccc;
+	background-color: #f5f5f5;
+	font-size: 13px;
+}
+div.MainMes{
+	border: 1px solid #f5dcd0;
+	background-color: #f9e9e1;
+	color: #916150;
+	padding: 2%;
+	margin-top: 2%;
+}
+table{
+	border-collapse: collapse;
+}
+div.Ticket{
+	padding: 4% 0;
+}
+div.Ticket table tr.items td{
+	width: 15%;
+}
+div.Ticket table tr.itemcon td{
+	font-size: 12px;
+	border-right: 2px solid #f9f9f9;
+}
+div.Ticket table tr.itemcon td span{
+	display: block;
+}
+td#leftTic{
+	background-color: green;
+	color:#fff;
+	display: inline-block;
+	padding: 4px 15px;
+	border-radius: 3px;
+}
+div.MesCon{
+	padding: 0 5px;
+	border-top: 1px solid #ddd;
+	border-bottom:  1px solid #ddd;
+	background-color: #f9f9f9;
+}
+tr.itemcon{
+	border-top: 1px solid #ddd;
+	border-bottom:  1px solid #ddd;
+	background-color: #f9f9f9;
+}
+div.Ticket table tr td.leftitem{
+	padding-left: 8px;
+}
+div.Ticket table tr td.rightitem{
+	padding-right: 8px;
+}
